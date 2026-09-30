@@ -1,0 +1,14 @@
+CynLr Error Metric Probe Summary
+================================
+
+GUI Error % values entered manually:
+before FOLLOW: 100
+after FOLLOW:  100
+after HOLD:    100
+
+Stream-derived summaries (NOT the GUI metric):
+follow: observations=1748, error_any_fraction=1.0000, mean_coordinate_distance=277.638
+hold: observations=2220, error_any_fraction=1.0000, mean_coordinate_distance=221.423
+
+Interpretation note:
+The script does not assume that Error X/Y are positional errors or that computed Green-Blue distance is the application's true Position Error. Compare the recorded quantities with the GUI Error % and visual state.
